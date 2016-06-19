@@ -1,0 +1,19 @@
+{
+    "name": "luckynail/helper",
+    "description": "",
+    "license": "MIT",
+    "keywords": ["helper"],
+    "authors": [
+        {
+            "name": "Felix Nagel",
+            "email": "ElfixLange@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "LuckyNail\\Helper\\": "src"
+        }
+    }
+}
