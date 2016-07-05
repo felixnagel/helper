@@ -24,7 +24,7 @@ class Path{
 					$aFiles[] = $sFilePath;
 				}
 			}else{
-				$sBasePath .= self::to_path_part($mFolderName);
+				$sBasePath .= DIRECTORY_SEPARATOR.self::to_path_part($mFolderName);
 				self::collect_hierarchic_files($mFileOrFolder, $sBasePath, $aFiles);
 			}
 		}
